@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/SutonnyMJ.ttf') format('truetype');
+    /* You may need to include additional formats (e.g., woff2, ttf) for better browser compatibility */
+    }
+
+    body {
+        font-family: 'CustomFont', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    
+    h2 {
+        color: #FF5733;
+    }
+    
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2, h1 {
+        color: #3366FF;
+    }
+    
